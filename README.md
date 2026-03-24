@@ -32,6 +32,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+```
 module ex1(a,b,y1,y2,y3,y4,y5,y6);
 input a,b;
 output y1,y2,y3,y4,y5,y6;
@@ -42,7 +43,7 @@ nor g4(y4,a,b);
 xor g5(y5,a,b);
 not g6(y6,a);
 endmodule
-
+```
 
 **RTL realization output**
 <img width="1917" height="1007" alt="Screenshot 2026-03-13 195940" src="https://github.com/user-attachments/assets/51e0a348-285b-4ddc-9cb5-fc0272d7ffcb" />
